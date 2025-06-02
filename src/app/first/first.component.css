@@ -1,0 +1,110 @@
+#container {
+    margin: 100px 100px 0px 100px;
+    display: flex;
+}
+
+#left {
+    width: 720px;
+    height: 800px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px;
+}
+
+#right {
+    width: 720px;
+    height: 800px;
+    top: 200px;
+    left: 976px;
+    margin-left: 140px;
+}
+
+#text-welcome {
+    width: 621px;
+    height: 230px;
+    top: 263px;
+    left: 165px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    gap: 10px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.btn {
+    width: 400px;
+    height: 50px;
+    top: 510px;
+    left: 165px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    gap: 10px;
+    border-radius: 52px;
+    border-width: 1px;
+    border: 1px solid #6C5CE7;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+#btn-login-google {
+    background: none;
+    color: #6C5CE7;
+}
+
+#btn-login-email {
+    background: #6C5CE7;
+    color: #FFFFFF;
+}
+
+#text-info {
+    width: 319px;
+    height: 60px;
+    color: #000000;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+#text-join {
+    width: 324px;
+    height: 40px;
+    top: 761px;
+    left: 165px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    gap: 10px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #00000094;
+
+}
+
+#link-join {
+    color: #6C5CE7;
+    text-decoration: none;
+}
